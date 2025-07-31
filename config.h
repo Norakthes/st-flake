@@ -204,7 +204,7 @@ static Shortcut shortcuts[] = {
 
 	{ ControlMask,		XK_plus,	zoom,		{.f = +1} },
 	{ ControlMask,		XK_minus,	zoom,		{.f = -1} },
-	{ ControlMask,		XK_0,		zoom,		{.f =  0} },
+	{ ControlMask,		XK_0,		zoomreset,	{.f =  0} },
 
 	{ ControlMask,		XK_BackSpace,	ttysend,	{.s = "\x17"} },
 	{ XK_ANY_MOD,		XK_Delete,	ttysend,	{.s = "\033[3~"} },
