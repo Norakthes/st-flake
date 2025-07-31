@@ -17,6 +17,7 @@
         #./patches/st-boxdraw_v2-0.8.5.diff
         ./patches/st-scrollback-0.9.2.diff
         ./patches/st-scrollback-mouse-0.9.2.diff
+        ./patches/st-scrollback-mouse-altscreen-20220127-2c5edf2.diff
       ];
 
       postPatch = ''
