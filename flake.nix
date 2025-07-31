@@ -14,7 +14,7 @@
     packages.${system}.default = pkgs.st.overrideAttrs (oldAttrs: {
       patches = [
         ./patches/st-anysize-0.8.4.diff
-        ./patches/st-boxdraw_v2-0.8.5.diff
+        #./patches/st-boxdraw_v2-0.8.5.diff
         ./patches/st-scrollback-0.9.2.diff
         ./patches/st-scrollback-mouse-0.9.2.diff
       ];
