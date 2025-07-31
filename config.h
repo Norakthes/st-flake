@@ -181,6 +181,9 @@ static MouseShortcut mshortcuts[] = {
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
 	{ ShiftMask,            Button5, ttysend,        {.s = "\033[6;2~"} },
 	{ XK_ANY_MOD,           Button5, ttysend,        {.s = "\005"} },
+
+	{ XK_ANY_MOD,		Button4, kscrollup,	{.i = 1} },
+	{ XK_ANY_MOD,		Button5, kscrolldown,	{.i = 1} },
 };
 
 /* Internal keyboard shortcuts. */
@@ -208,6 +211,9 @@ static Shortcut shortcuts[] = {
 
 	{ ControlMask,		XK_BackSpace,	ttysend,	{.s = "\x17"} },
 	{ XK_ANY_MOD,		XK_Delete,	ttysend,	{.s = "\033[3~"} },
+
+	{ ShiftMask,		XK_Page_Up,	kscrollup,	{.i = -1} },
+	{ ShiftMask,		XK_Page_Down,	kscrolldown,	{.i = -1} },
 };
 
 /*
